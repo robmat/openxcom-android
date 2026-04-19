@@ -33,7 +33,7 @@ android {
     defaultConfig {
         applicationId "org.libsdl.openxcom"
         minSdk 21
-        targetSdk 28
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
@@ -78,7 +78,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
         }
     }
 
